@@ -7,31 +7,33 @@ html {
     box-sizing: inherit;
   }
 
-  nav ol {
-    list-style-type: none;
-    font-weight: normal;
-    display: inline-block;
-    font-size: 1.125rem;
-  }
+nav ul {
+  list-style-type: none;
+  font-weight: normal;
+  font-size: 1.125rem;
+}
 
-  nav a {
-    color: #fff;
-    font-weight: normal;
-    font-family: Georgia, serif;
-    text-decoration: none;
-    display: inline-block;
-    margin: .3em;
-    max-width: 20em;
-    padding: .6em .5em .75em;
-    background-color: #b2a212;
-    border-radius: 10px;
-    text-align: left;
-  }
+nav li {
+  display: inline-block;
+}
 
-  a:hover {
-    background-color: #cc1465;
-    text-decoration: none;
-  }
+nav a {
+  color: #fff;
+  font-weight: normal;
+  font-family: Georgia, serif;
+  text-decoration: none;
+  margin: .3em;
+  max-width: 20em;
+  padding: .2em .5em .3em;
+  background-color: #b2a212;
+  border-radius: 4px;
+  text-align: left;
+}
+
+a:hover {
+  background-color: #cc1465;
+  text-decoration: none;
+}
 
 h1, h2 {
   font-family: "Sigmar One", cursive;
