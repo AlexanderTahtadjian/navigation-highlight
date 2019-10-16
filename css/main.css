@@ -3,21 +3,33 @@ html {
     line-height: 1.5;
   }
 
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
   nav ol {
     list-style-type: none;
     font-weight: normal;
+    display: inline-block;
     font-size: 1.125rem;
   }
 
   nav a {
-    color: white;
+    color: #fff;
     font-weight: normal;
     font-family: Georgia, serif;
     text-decoration: none;
+    display: inline-block;
+    margin: .3em;
+    max-width: 20em;
+    padding: .6em .5em .75em;
+    background-color: #b2a212;
+    border-radius: 10px;
+    text-align: left;
   }
 
   a:hover {
-    color: #cc1465;
+    background-color: #cc1465;
     text-decoration: none;
   }
 
