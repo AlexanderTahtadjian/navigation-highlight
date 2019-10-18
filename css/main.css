@@ -60,3 +60,7 @@ h1 {
 header, footer {
   background-color: #ffe500;
 }
+
+footer {
+  text-align: center;
+}
