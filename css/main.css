@@ -48,7 +48,7 @@ a:hover {
   padding-bottom: .5em;
 }
 
-.nav .current {
+nav .current {
     background-color: #cc1465;
 }
 
