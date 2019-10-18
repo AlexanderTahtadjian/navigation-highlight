@@ -48,6 +48,10 @@ a:hover {
   padding-bottom: .5em;
 }
 
+.nav .current {
+    background-color: #cc1465;
+}
+
 h1, h2 {
   font-family: "Sigmar One", cursive;
   color: #b20953;
