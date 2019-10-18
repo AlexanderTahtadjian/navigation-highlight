@@ -39,6 +39,7 @@ nav a {
   font-weight: normal;
   font-family: Georgia, serif;
   text-decoration: none;
+  font-size: .75rem;
   max-width: 20em;
   padding: .2em .5em .3em;
   background-color: #b2a212;
