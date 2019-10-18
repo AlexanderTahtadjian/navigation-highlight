@@ -25,6 +25,10 @@ nav li {
   display: inline-block;
 }
 
+nav {
+  margin: .3em;
+}
+
 nav ul {
   text-align: center;
   margin: 0;
@@ -35,7 +39,6 @@ nav a {
   font-weight: normal;
   font-family: Georgia, serif;
   text-decoration: none;
-  margin: .3em;
   max-width: 20em;
   padding: .2em .5em .3em;
   background-color: #b2a212;
