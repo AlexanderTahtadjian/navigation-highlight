@@ -39,6 +39,9 @@ a:hover {
   text-decoration: none;
 }
 
+.nav-box {
+  padding-bottom: .5em;
+}
 h1, h2 {
   font-family: "Sigmar One", cursive;
   color: #b20953;
