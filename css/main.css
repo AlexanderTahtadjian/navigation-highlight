@@ -1,12 +1,13 @@
 html {
-    font-family: Georgia, serif;
-    line-height: 1.5;
-    box-sizing: border-box;
-  }
+  font-family: Georgia, serif;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
 
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 img {
   display: block;
   width: 100%;
@@ -53,7 +54,7 @@ a:hover {
 }
 
 nav .current {
-    background-color: #cc1465;
+  background-color: #cc1465;
 }
 
 h1, h2 {
