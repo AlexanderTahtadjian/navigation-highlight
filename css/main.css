@@ -20,16 +20,13 @@ nav ul {
   list-style-type: none;
   font-weight: normal;
   font-size: 1.125rem;
+  text-align: center;
+  margin: 0;
+  padding-left: 0;
 }
 
 nav li {
   display: inline-block;
-}
-
-nav ul {
-  text-align: center;
-  margin: 0;
-  padding-left: 0;
 }
 
 nav a {
